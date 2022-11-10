@@ -21,7 +21,7 @@ namespace _08._11
         {
             Theft();
             CarBurglary();
-            Console.WriteLine("Метод сработал");
+            
         }
 
         private void Theft()
