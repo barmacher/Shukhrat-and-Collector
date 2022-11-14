@@ -7,9 +7,9 @@
 
         public void BreakKness(Shukhrat shukhrat1)
         {
-            if(shukhrat1.Debt > cap)
+            if(shukhrat1.Debt> cap)
             {
-                Console.WriteLine($"Колени сломаны");
+                Console.WriteLine($"Так как долг Шухрата больше 5000, я сломал ему колени");
             }
         }
 

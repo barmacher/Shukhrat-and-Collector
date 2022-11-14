@@ -12,8 +12,12 @@ namespace _08._11
         public Shukhrat()
         {
             Debt = new Random().Next(10000,50000);
+            Console.WriteLine("Долг:" + Debt);
             Money = new Random().Next(0, Debt);
+            Console.WriteLine("Деньги Шухрата на данный момент:" + Money);
             GetMoney();
+            Console.WriteLine("Деньги Шухрата после добычи денег:" + Money);
+
 
         }
 
@@ -32,10 +36,12 @@ namespace _08._11
 
         private void CarBurglary()
         {
-            int rand = new Random().Next(10, 100000);
+            int rand = new Random().Next(10, 10000);
             Money += rand;
         }
 
+        
+        }
 
     }
-}
+
